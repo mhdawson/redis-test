@@ -1,0 +1,29 @@
+{
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.2",
+    "ioredis": "^4.28.3",
+    "kube-service-bindings": "https://github.com/mhdawson/kube-service-bindings/tarball/add-redis",
+    "redis": "^4.0.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "name": "redis-test",
+  "version": "0.0.1",
+  "author": "mhdawson",
+  "license": "MIT",
+  "description": "Simple app using redis",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhdawson/redis-test.git"
+  },
+  "keywords": [
+    "redis",
+    "kube-service-bindings"
+  ],
+  "bugs": {
+    "url": "https://github.com/mhdawson/redis-test/issues"
+  },
+  "homepage": "https://github.com/mhdawson/redis-test#readme"
+}
